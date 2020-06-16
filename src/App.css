@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#slider1 {
+    background-color: aqua;
+}
+#slider2 {
+    background-color:forestgreen;
+}
+#slider3 {
+    background-color: lightblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ak-slider {
+    background: no-repeat center center;
+    background-color: rgb(134, 142, 150);
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#save-the-date {
+    font-family: 'Pacifico', cursive;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    padding-top: 100px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+#save {
+    font-size: 75px;
+    line-height: 50px;
+}
+#the-date {
+    font-size: 62px;
+}
+#date {
+    font-size: 47px;
+    line-height: 40px;
+}
+.banner-text.light {
+    color: rgb(255, 255, 255);
+    border-top: medium double rgb(255, 255, 255);
+    border-bottom: medium double rgb(255, 255, 255);
+}
+.banner-text.light * {
+    color: rgb(255, 255, 255);
+}
+.heart-divider {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.white-line {
+    width: 30px;
+    height: 8px;
+    display: inline-block;
+    border-top: solid 1px rgb(255, 255, 255);
+}
+.pink-heart {
+    color: rgb(240, 57, 77);
+    font-size: 18px;
+    position: relative;
+    z-index: 3;
+}
+.white-heart {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-left: -15px;
+    position: relative;
+    z-index: 2;
+}
+.white-line {
+    width: 30px;
+    height: 8px;
+    display: inline-block;
+    border-top: solid 1px rgb(255, 255, 255);
+}
+
+footer{
+    padding: 50px 0 65px;
+    background-color: rgb(251, 251, 250);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  footer h2 {
+    font-family: 'Pinyon Script', cursive;
+    font-weight: 400;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
